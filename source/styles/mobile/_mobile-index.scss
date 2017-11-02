@@ -1,0 +1,199 @@
+@media screen and (min-width: 1100px) {
+
+}
+
+@media screen and (min-width: 840px) and (max-width: 1000px) {
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 699px) and (min-width: 479px) {
+
+}
+
+@media screen and (max-width: 1000px)  {
+  .container-block {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .header {
+    width: 100%;
+    background-color: #246e89;
+    color: #eee6d1;
+    margin-bottom: -23px;
+    &__line--top {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -ms-flex-line-pack: justify;
+      align-content: space-between;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      margin: 0 10px;
+    }
+    &__button-menu--mobile {
+      display: block !important;
+      width: 50px;
+      height: 50px;
+      background-image: url('/images/button-menu.png');
+      background-repeat: no-repeat;
+      background-size: 75%;
+      cursor: pointer;
+      margin-left: 15px;
+      margin-top: 6px;
+    }
+    .header__line--top {
+      height: 50px;
+    }
+    &__logotip {
+      float: none;
+      margin-top: 15px;
+      margin-left: 0px;
+      vertical-align: top;
+    }
+    &__logotip-link {
+      color: #2c2f33;
+      font-family: 'OpenSans-Bold';
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    &__search {
+      float: none;
+      margin-top: 15px;
+    }
+    &__block-form{
+    	width:100px;
+    	height:28px;
+    	border-radius:15px;
+    	border:none;
+    	background:url(/images/searchBgDark.png) left top repeat-x;
+    	box-shadow:0px 1px 2px rgba(255,255,255,0.2);
+      margin-top: 0px;
+      margin-right: 0px;
+      input {
+        padding:0;
+      	margin:0;
+      	display:block;
+      	border:none;
+      	outline:none;
+      	background:none;
+      	width:80px;
+      	height:100%;
+        float: right;
+      }
+      .form-actions{
+        display: none !important;
+      	width:28px;
+      	height:28px;
+      	float:left;
+      	background:url(/images/searchIconDark.png) 12px 9px no-repeat;
+      }
+      .form-actions input:hover{
+      	cursor: pointer;
+      }
+      .form-actions input{
+      	overflow:hidden;
+      	text-indent:-9999px;
+      }
+      .form-item{
+      	width:100px;
+      	padding:0px 5px;
+      	float:right;
+      	height:28px;
+      }
+      .form-item input{
+        font-family: 'OpenSans-Bold';
+      	color: #eee6d1 !important;
+      	height:auto !important;
+      	padding:3px 0;
+      }
+      .placeholder{
+        font-family: 'OpenSans-Bold';
+        color: #eee6d1 !important;
+      }
+    }
+    &__line--bottom {
+      height: 45px;
+      clear: both;
+      padding-top: 20px;
+      border-top: 1px solid #284b58;
+    }
+    &__list {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     align-content: space-between;
+     align-items: flex-start;
+     margin: 0 20px;
+    }
+    &__list-item {
+      display: inline-block;
+    }
+    &__list-item-link {
+      font-family: 'OpenSans-Bold';
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #2c2f33;;
+      transition: 0.5s;
+      &:hover {
+        color: #465161;
+        transition: 0.5s;
+      }
+    }
+  }
+  .title-block {
+    background-color: #eee6d1;
+    text-align: center;
+    height: 70px;
+    &__title {
+      color: #246e89;
+      font-family: 'OpenSans-Bold';
+      font-size: 35px;
+      text-transform: uppercase;
+      padding-top: 10px;
+    }
+  }
+  .main-content {
+    background-color: #bae7e0;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &__container {
+      width: 400px;
+      background-color: pink;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: center;
+    }
+    &__item {
+      min-width: 200px;
+      height: 50px;
+      background-color: #246e89;
+      text-align: center;
+      color: #2c2f33;
+      font-family: 'OpenSans-Bold';
+      font-size: 35px;
+      border: 1px solid white;
+      box-sizing: border-box;
+      &:nth-child(3) {
+        width: 400px;
+      }
+      &:nth-child(2n) {
+        background-color: #c6e0f7;
+      }
+    }
+  }
+}

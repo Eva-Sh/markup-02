@@ -1,0 +1,67 @@
+extends templates/layout
+block vars
+	- var title = ''
+	- var og_title = ''
+	- var og_description = ''
+	- var og_image = ''
+	- var twitter_description = ''
+
+block content
+	.container-block
+		section.header
+			.header__line--top
+				.header__button-menu--mobile 
+				.header__logotip 
+					a(href='/' class="header__logotip-link") logotip
+				.header__search
+					form.header__block-form(action='', method='post')
+						.form-item
+							input(type='text', name='', value='', size='15', maxlength='128', placeholder='')
+						.form-actions
+							input#edit-submit.form-submit(type='submit', name='op', value='Поиск')
+			.header__line--bottom
+				.header__list
+					.header__list-item
+						a(href='/' class="header__list-item-link") home
+					.header__list-item
+						a(href='/' class="header__list-item-link") blog
+					.header__list-item
+						a(href='/' class="header__list-item-link") demo
+					.header__list-item
+						a(href='/' class="header__list-item-link") about
+					.header__list-item
+						a(href='/' class="header__list-item-link") service
+					.header__list-item
+						a(href='/' class="header__list-item-link") contact
+		section.title-block
+			h1.title-block__title title
+		section.main-content
+			.main-content__container
+				.main-content__item 1
+				.main-content__item 2
+				.main-content__item 3
+				.main-content__item 4
+				.main-content__item 5
+				.main-content__item 6
+				.main-content__item 7
+				
+			
+				
+		
+		
+						
+
+			
+	
+		
+	
+
+		
+	
+		
+
+				
+			
+					
+					
+	
