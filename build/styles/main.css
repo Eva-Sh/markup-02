@@ -238,7 +238,7 @@ input:invalid {
     .header__logotip {
       float: none;
       margin-top: 15px;
-      margin-left: 0px;
+      margin-left: 25px;
       vertical-align: top; }
     .header__logotip-link {
       color: #2c2f33;
@@ -292,6 +292,7 @@ input:invalid {
         font-family: 'OpenSans-Bold';
         color: #eee6d1 !important; }
     .header__line--bottom {
+      display: none;
       height: 45px;
       clear: both;
       padding-top: 20px;
